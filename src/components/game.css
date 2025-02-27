@@ -1,0 +1,48 @@
+.game-header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 4vh;
+    margin-bottom: 2vh;
+    padding: 2vh;
+
+}
+
+.game {
+    background-color: aliceblue;
+    width: 100vh;
+    height: 60vh;
+    margin: 2vh auto;
+    padding: 2vh;
+    border-radius: 2vh;
+    box-shadow: 2vh;
+}
+.game-box .row {
+    display: flex;
+    justify-content: center;
+}
+
+.row input{
+    height: 80px;
+    width: 80px;
+    margin: 1vh;
+    text-align: center;
+    font-size: 8vh;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+
+.game-header-left, .game-header-right {
+    padding: 2vh;
+    background-color: cadetblue;
+    color: cornsilk;
+    border-radius: 5px;
+    box-shadow: 3px;
+    text-align: center;
+}

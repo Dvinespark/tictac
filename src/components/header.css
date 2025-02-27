@@ -1,0 +1,14 @@
+.header {
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 2vh;
+}
