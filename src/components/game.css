@@ -46,3 +46,11 @@ input::placeholder {
     box-shadow: 3px;
     text-align: center;
 }
+
+.active {
+    background-color:green;
+    color: white;
+    box-shadow: 2px;
+    transform: scale(1.06);
+
+}
