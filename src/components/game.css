@@ -54,3 +54,12 @@ input::placeholder {
     transform: scale(1.06);
 
 }
+
+.winner {
+    display: none;
+}
+
+.board-disable {
+    pointer-events: none;
+    opacity: 0.6;
+}
